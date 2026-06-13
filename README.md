@@ -85,7 +85,7 @@ Advantages:
 * Suitable for medium-sized datasets
 
 # Project Structure
-
+````text
 Project Structure
 
 SCT_ML_3/
@@ -110,6 +110,7 @@ SCT_ML_3/
         │   └── dogs/
         │
         └── dataset_info.csv
+````
 
 # Installation
 
