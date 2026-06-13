@@ -19,14 +19,11 @@ The model is trained on the Dogs vs Cats dataset and uses computer vision techni
 
 # Dataset
 
-Dataset: Dogs vs Cats Classification Dataset
+ Dogs vs Cats Classification 
 
-Dataset Structure:
+# Dataset Structure
 
-dogs-vs-cats-classification
-
-Dataset Structure/
-
+```text
 train/
 ├── cats/
 └── dogs/
@@ -38,6 +35,7 @@ validation/
 test/
 ├── cats/
 └── dogs/
+```
 
 # Technologies Used
 
@@ -163,7 +161,9 @@ The following metrics are used:
 
 # Results
 
-The project achieves classification performance using HOG feature extraction combined with a Linear Support Vector Machine.
+Model Accuracy: 69.25%
+
+The model successfully classifies cat and dog images using HOG features and a Linear SVM classifier.
 
 Performance may vary depending on:
 
@@ -171,6 +171,18 @@ Performance may vary depending on:
 * Image resolution
 * HOG parameters
 * System configuration
+
+# Dataset Distribution
+
+![Dataset Distribution](Dataset_Distribution.png)
+
+# Confusion Matrix
+
+![Confusion Matrix](Confusion_Matrix.png)
+
+# Sample Images
+
+![Sample Images](Sample_dog_cat_image.png)
 
 # Future Improvements
 
@@ -183,6 +195,8 @@ Performance may vary depending on:
 
 # Author
 
-Subodh
+Subodh Kant Patel
+
+B.Tech Computer Science Engineering (AI & ML)
 
 Note:Dataset is not included in this repository due to size limitations. Download it from Kaggle and place it in the cat_vs_dog directory
